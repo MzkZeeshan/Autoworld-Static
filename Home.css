@@ -1,0 +1,922 @@
+@charset "utf-8";
+
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+	border:none;
+	
+}
+body,html
+{
+	height:100%;
+background-image:		
+}
+#main_container
+{
+	position:relative;
+	margin:0 auto;
+
+	height:100%;
+	background-color:000;
+	
+	
+		max-width:1500px;
+	min-width:900px;
+	
+	
+}
+#home_container
+{
+	position:relative;
+	
+	margin:0 auto;
+	
+	
+	
+	
+	height:2000px;
+	background-color:#FFF;
+	max-width:1500px;
+	min-width:1000px;
+	
+	
+	
+}
+#brand_container
+{
+	position:relative;
+	margin:0 auto;
+	
+	
+	padding-top:61px;
+	
+	height:1200px;
+	background-color:#FFF;
+	max-width:1500px;
+	min-width:1000px;
+	
+}
+#gallary_container
+{
+	position:relative;
+	margin:0 auto;
+	
+	padding-top:61px;
+	
+	
+	
+	height:1100px;
+	background-color:#FFF;
+	max-width:1500px;
+	min-width:1000px;
+	
+
+	
+}
+#loan_container
+{
+	position:relative;
+	margin:0 auto;
+	
+	
+	padding-top:61px;
+	
+	height:2000px;
+	background-color:#FFF;
+	max-width:1500px;
+	min-width:1000px;
+	
+	
+}
+#payment_container
+{
+	position:relative;
+	margin:0 auto;
+	
+	
+	padding-top:61px;
+	
+	height:1000px;
+	background-image:url(home%20page%20images/hbl.jpg);
+	background-size:cover;
+	background-position:left;
+
+	background-repeat:no-repeat;
+	background-color:#BEBEBE;
+	max-width:1500px;
+	min-width:1000px;
+}
+#insurance_container
+{
+	
+	position:relative;
+	margin:0 auto;
+	
+	
+	padding-top:61px;
+	
+	height:1000px;
+	
+
+	background-color:#FFF;
+	max-width:1500px;
+	min-width:1000px;
+}
+	
+
+#login_container
+{
+	position:relative;
+	margin:0 auto;
+	
+	
+	padding-top:61px;
+	
+	height:1100px;
+	background-color:#FFF;
+	max-width:1500px;
+	min-width:1000px;
+	
+}
+#footer
+{
+	position:relative;
+	
+	
+	
+	
+	
+	height:430px;
+	
+	background-color:rgba(153,153,153,0.8);
+
+	width:100%;
+	font-family:Tahoma, Geneva, sans-serif;
+	border-top:solid thin #666;
+
+	
+	
+}
+h1
+{
+	color:#000;
+	opacity:0.5;
+	text-transform:uppercase;
+	margin-bottom:20px;
+	
+	
+}
+#title
+{
+	font-size:70px;
+	margin-top:40px;
+	margin-left:150px;
+	
+		
+	color:#000;
+	text-transform:uppercase;
+	
+		margin-bottom:20px;
+		
+
+	
+}
+p
+{
+	text-indent:50px;
+	text-transform:;
+	     font-family:Tahoma, Geneva, sans-serif;
+        font-size: 15px;
+	margin-left:20px;
+	
+}
+.small
+{
+		text-indent:50px;
+	text-transform:;
+	     font-family:Tahoma, Geneva, sans-serif;
+        font-size: 13px;
+	margin-left:20px;
+	
+}
+
+#nav
+{
+	background-color:rgba(153,153,153,0.8);
+	height:71px;
+	position:fixed;
+	
+	
+	margin:0 auto;
+	padding:0px;
+	width:100%;
+
+	max-width:1500px;
+	min-width:1000px;
+	z-index:100;
+	border-bottom:solid thin #666;
+
+	
+	
+	
+	
+	
+	
+}
+
+ul
+{
+	
+	list-style-type:none;
+	
+}
+ul li
+{
+	float:right;
+	
+}
+.nav:link,.nav:visited
+{
+	display:block;
+	
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:11px;
+	color:#000;
+	border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+	width:110px;
+	font-weight: bold;
+	text-align:center;
+	margin:12px 5px 2px -20px ;
+	border-bottom-style:inset;
+	border-top-style:groove;
+	border-color:#000;
+
+	background-color:rgba(153,153,153,0.8);
+	font-family:Tahoma, Geneva, sans-serif;
+	transition:all 0.50s ease 0.05s;
+	
+}
+
+	
+#searchb
+{
+	background-color:#FFF;
+	max-width:1500px;
+	min-width:1000px;
+	height:100px;
+	position:relative;
+	
+	padding-top:71px;
+	margin:0 auto;
+
+
+	
+	
+	
+	
+}
+#search
+{
+	float:right;
+	margin:30px 20px 30px auto;
+	background-image:url(home%20page%20images/1.png);
+	background-size:contain;
+	width:25px;
+	height:25px;
+	border-radius:100px;
+	background-repeat:no-repeat;
+	transition:all 0.20s ease 0.20s;
+	outline:none;
+	background-color:#CCC;
+	
+
+	
+	
+	
+	
+	
+	
+}
+
+	
+input[type=search]
+{
+	
+	padding-left:25px;
+	font-size:14px;
+	
+}
+	
+#well
+{
+	width: 700px;
+	height: 200px;
+	background-color: #FFF;
+	
+	
+	
+	
+
+	
+	
+}
+
+#content
+{
+	background-color: #FFF;
+	height: 1290px;
+	width: 1250px;
+	margin: 0 auto;
+	position: relative;
+	padding:30px 0px 30px 30px;
+	
+}	
+#meseum
+{
+	height:200px;
+	background-color:#FFF;
+	width:300px;
+	position:relative;
+}
+#histroy
+{
+	height:20px;
+	width:25px;
+	border-radius:100%;
+	margin-left:10px;
+	outline:none;
+	background-image:url(home%20page%20images/2.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin-left:225px;
+	
+	
+	
+}
+#building
+{
+	
+	margin-left:700px;
+	background-color:#FFF;
+	height:450px;
+	width:550px;
+	position:absolute;
+	
+}
+#compareb
+{
+	height:500px;
+	width:1000px;
+	background-color:#FFF;
+	padding:30px;
+	
+}
+.compareh
+{
+	height:50px;
+	width:270px;
+	background-color:#FFF;
+	margin:3px;
+	padding:0;
+	border:groove thin #000;
+	
+}
+.comparep
+{
+	height:20px;
+	width:270px;
+	margin:3px;
+	padding:0;
+	border:groove thin #000;
+	padding-top:10px;
+}
+.car_detail
+{
+	height:150px;
+	width:276px;
+	margin:0px;
+	padding:2px;
+	background-color:#FFF;
+	
+	
+}
+.carimage
+{
+	padding-left:15px;
+	
+}
+#pk
+{
+ text-indent:0px;	
+}
+span
+{
+	color:#333;
+	font-size:large;
+	
+}
+.c1
+{
+ height:400px;
+ width:280px;
+ background-color:#FFF;
+ float:left;
+ margin-left:20px;
+	
+	
+	
+}
+#why
+{
+	background-color:#FFF;
+	height:400px;
+	width:700px;
+	padding-left:30px;
+}
+	
+#loanb
+{
+	height:350px;
+	width:500px;
+	float:right;
+	background-color:#FFF;
+}
+
+
+
+/*about us page*/
+
+#about
+{
+	height:500px;
+	width:700px;
+
+	padding-left:80px;
+	padding-top:50px;
+	background-color:#FFF;
+	
+
+	
+	
+}
+#carpic
+{
+	float:right;
+	background-color:#FFF;
+	
+}
+#value
+{
+	background-color:#FFF;
+	height:600px;
+	width:1000px;
+	margin:20px 0  0 80px;
+	
+}
+/*end about us*/
+
+
+
+
+
+/*brand*/
+#brand_line
+{
+	margin-left:250px;
+}
+
+#brandtag
+{
+	margin-top:40px;
+	height:700px;
+	width:1400px;
+	background-color:#FFF;
+	padding-top:40px;
+	padding-left:20px;
+	
+	
+}
+
+#a,#b,#c,#d,#e,#f,#g,#h
+{
+	border-radius:50px;
+	margin:10px;
+	transition:all 1s ease 0.1s; 
+
+	border:groove thin #000;
+	
+}
+
+
+
+/*end brand*/
+
+
+/*loan*/
+.bankb
+{
+	background-color:#FFF;
+	height:350px;
+	width:1000px;
+	margin:20px 0  0 80px;
+	transition:all 0.90s ease 0.1s;
+}
+.bankb:hover
+{
+
+		right: 0; background:url(home%20page%20images/right.png) right center repeat-y;
+		background-color:#CCC;
+		transform:scale(1.05,1);
+	
+}
+ ul
+{
+	
+	list-style-type:none;
+	
+}
+
+.veiw_detail:link,.veiw_detail:visited
+{
+	display:block;
+	
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:11px;
+	color:#999;
+	border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+	width:100px;
+	font-weight: bold;
+	text-align:center;
+	
+	
+	border-bottom-style:inset;
+	border-top-style:groove;
+	border-color:#999;
+
+
+	
+	font-family:Tahoma, Geneva, sans-serif;
+	transition:all 0.50s ease 0.05s;
+	
+}
+.veiw_detail:hover,.veiw_detail:active
+{
+ transform:scale(1,1.1);
+	background-color:#999;
+	border-color:#999;
+
+
+	color:#FFF;
+	
+}
+.banki
+{
+	margin:40px;
+	
+}
+/*loan*/
+
+
+/*payment*/
+#paymentb
+{
+		
+	height:100px;
+	width:1000px;
+	margin:4px 0  0 50px;
+	padding:60px;
+	font-size:36px;
+	font-style:italic;
+	
+	
+	
+}
+
+/*payment*/
+
+/*contact us*/
+input[type=submit]
+{
+	padding:10px;
+	float:right;
+	font-weight:900;
+	margin-top:60px;
+}
+#contactb1
+{
+	height:400px;
+	width:400px;
+	background-color:#FFF;
+	margin:20px 0  0 80px;
+	
+}
+#contactp
+{
+	margin-left:50px;
+	font-size:20px;
+	color:#999;
+	text-indent:0px;
+}
+#contactb
+{
+	
+	background-color:#FFF;
+	height:200px;
+	width:1000px;
+	margin:20px 0  0 80px;
+	
+}
+#formb
+{
+	background-color:#FFF;
+	height:300px;
+	width:900px;
+	margin-left:80px;
+	
+}
+label
+{
+	font-size:36px;
+	
+}
+
+#f1
+{
+	
+	font-size:25px;
+	height:36px;
+		padding:0px 20px 0px 20px;
+	margin-left:160px;
+	width:300px;
+	
+	border:outset thin #666;
+	border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+	outline:none;
+
+	
+}
+
+#f2
+{
+	
+	font-size:25px;
+	height:36px;
+	padding:0px 20px 0px 20px;
+	margin-left:50px;
+	width:300px;
+	outline:none;
+	border:outset thin #666;
+	border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+
+
+	
+}
+#f3
+{
+	
+	font-size:25px;
+	height:36px;
+		padding:0px 20px 0px 20px;
+	margin-left:105px;
+	width:300px;
+	outline:none;
+	border:outset thin #666;
+	border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+
+
+	
+}
+#f4
+{
+		padding:0px 20px 0px 20px;
+		height:120px;
+		width:300px;
+		margin-left:300px;
+			font-size:25px;
+			outline:none;
+			border:outset thin #666;
+			border-bottom-left-radius:20px;
+	border-top-right-radius:20px;
+
+
+}
+#googleMap
+{
+	float:right;
+	background-color:#CFF;
+}
+
+/*contact us*/
+
+
+
+/*footer*/
+#footer_center
+{
+	position:relative;
+	
+	
+	
+	
+	
+	height:430px;
+
+	background-color:rgba(153,153,153,0.8);
+	width:1500px;
+	font-family:Tahoma, Geneva, sans-serif;
+	border-top:solid thin #666;
+	margin:0 auto;
+
+	
+	
+	
+}
+#footerb
+{
+	height:150px;
+	padding:20px;
+	width:1400px;
+	
+	position:relative;
+		
+}
+#footero1
+{
+
+	height:100px;
+	width:100px;
+	border-radius:100px;
+	background-image:url(footer%20images/1.png);
+	background-position:center;
+	background-size:cover;
+	
+}
+#footero1:hover
+{
+	
+	background-image:url(footer%20images/1(2).png);
+	background-color:#CCC;
+}
+
+#footero2
+{
+	
+
+
+	height:100px;
+	width:100px;
+	border-radius:100px;
+	background-image:url(footer%20images/2.png);
+	background-position:center;
+	background-size:cover;
+	
+}
+#footero2:hover
+{
+	
+	background-image:url(footer%20images/2(2).png);
+	background-color:#CCC;
+}
+
+#footero3
+{
+	
+
+
+	height:100px;
+	width:100px;
+	border-radius:100px;
+	background-image:url(footer%20images/3.png);
+	background-position:center;
+	background-size:cover;
+	
+}
+#footero3:hover
+{
+	
+	background-image:url(footer%20images/3(2).png);
+	background-color:#CCC;
+}
+
+#footero4
+{
+	
+
+
+	height:100px;
+	width:100px;
+	border-radius:100px;
+	background-image:url(footer%20images/4.png);
+	background-position:center;
+	background-size:cover;
+	
+}
+#footero4:hover
+{
+	
+	background-image:url(footer%20images/4(2).png);
+	background-color:#CCC;
+}
+#copyright
+{
+	padding-top:70px;
+	padding-left:1000px;
+	
+}
+.float
+{
+	float:left;
+}
+#customerb
+{
+	height:150px;
+	width:500px;
+
+
+}
+	
+#aboutb
+{
+	height:200px;
+	width:300px;
+
+	float:right;
+	margin-top:70px;
+	margin-right:400px;
+
+
+}
+.l
+{
+	float:none;
+	padding-right:20px;
+	text-decoration:none;
+	
+}
+.la
+{
+	float:left;
+
+	
+}
+
+a:link,a:visited
+{
+	text-decoration:none;
+	color:#000;
+	
+	
+	
+}
+a:hover
+{
+	color:#FFF;
+	
+}
+/*footer*/
+
+.line
+{
+	width:100%;
+	margin:0 auto;
+	width:1400px;
+	border-radius:100px;
+	height:10px;
+	background-color:#666;
+	border:groove thin #999;
+	
+}
+/*insurance*/
+#insuranceb
+{
+	height:500px;
+	width:800px;
+	background-color:#FFF;
+	
+}
+#aunt
+{
+	float:right;
+	padding-top:40px;
+	padding-right:40px;
+	
+}
+#auntneche
+{
+	padding-left:30px;
+	
+	
+}
+
+
+
+/*insurance*/
